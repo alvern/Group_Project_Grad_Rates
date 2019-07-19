@@ -1,3 +1,4 @@
 #ignore large FCC csv
 /Resources/MN-Fixed-Dec2017-v2.csv
 /Resources/MN-Fixed-Dec2017/MN-Fixed-Dec2017-v2.csv
+.ipynb_checkpoints
