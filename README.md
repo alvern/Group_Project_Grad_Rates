@@ -47,7 +47,7 @@ Income - Brian
     (census_blocks.ipynb, Census_Clean.ipynb, Brian_Beck_Notebook.ipynb)
 
 Broadband - Kate  
-    (kate_broadband_notebook.ipynb, Kate_Median_Income.ipynb)
+    (kate_broadband_notebook.ipynb, Kate_Median_Income.ipynb, Broadband_Cleanup_and_Prep.ipynb, Broadband_GradRate_Comparison.ipynb, Census_Call_for_Median_Income.ipynb, Kate_Broadband_Cleanup_and_Prep.ipynb, Kate_Broadband_Data.ipynb, Kate_Broadband_GradRate_Comparison.ipynb, Kate_Census_Call_for_Median_Income.ipynb)
     
 Crime - Jack  
     (Heatmaps_Jack.ipynb, Jack_Notebook.ipynb)
