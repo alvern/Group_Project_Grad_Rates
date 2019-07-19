@@ -1,0 +1,390 @@
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20190716</CreaDate>
+		<CreaTime>05510000</CreaTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<lineage>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CreateFeatureclass" Date="20190716" Time="054643">CreateFeatureclass C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb my_neighborhood_sites_4326 POINT # DISABLED DISABLED "GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]];-400 -400 1000000000;-100000 10000;-100000 10000;8.98315284119522E-09;0.001;0.001;IsHighPrecision" # 0 0 0</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054644">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 site_id LONG 0 # # # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054644">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 name TEXT # # 100 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054644">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 active_flag TEXT # # 4 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054645">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 address_street TEXT # # 200 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054645">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 address_city TEXT # # 60 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054646">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 address_state TEXT # # 2 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054646">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 address_zip TEXT # # 15 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054646">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 city TEXT # # 60 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054647">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 county TEXT # # 40 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054647">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 cong_district TEXT # # 2 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054648">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 senate_district TEXT # # 4 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054648">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 house_district TEXT # # 4 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054648">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 huc8 TEXT # # 8 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054649">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 watershed_name TEXT # # 60 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054649">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 site_url TEXT # # 200 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054649">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 activity TEXT # # 100 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054650">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 activity_list TEXT # # 1000 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054650">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 mpca_id TEXT # # 60 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054651">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 mpca_id_list TEXT # # 400 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054651">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 program_code_list TEXT # # 200 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054651">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 program_name TEXT # # 60 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054652">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 program_name_list TEXT # # 400 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054652">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 industrial_classification TEXT # # 4000 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054653">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 ic_flag TEXT # # 4 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054653">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 latitude DOUBLE # # # # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054654">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 longitude DOUBLE # # # # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054654">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 coord_collect_method_code TEXT # # 2 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20190716" Time="054654">AddField C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb//my_neighborhood_sites_4326 coord_collect_method_name TEXT # # 100 # NULLABLE NON_REQUIRED #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddSpatialIndex" Date="20190716" Time="055057">AddSpatialIndex C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb\my_neighborhood_sites_4326 0 0 0</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20190716" Time="055132">Project C:\geo-python\final-products\tempo\env_my_neighborhood_4326.gdb\my_neighborhood_sites_4326 C:\geo-python\final-products\tempo\env_my_neighborhood.gdb\my_neighborhood_sites PROJCS['NAD_1983_UTM_Zone_15N',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Transverse_Mercator'],PARAMETER['False_Easting',500000.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-93.0],PARAMETER['Scale_Factor',0.9996],PARAMETER['Latitude_Of_Origin',0.0],UNIT['Meter',1.0]] WGS_1984_(ITRF00)_To_NAD_1983 GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]] NO_PRESERVE_SHAPE # NO_VERTICAL</Process>
+				<Process ToolSource="C:\program files\arcgis\server\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20190717" Time="003115">FeatureClassToFeatureClass /var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites /var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\shp my_neighborhood_sites.shp # "site_id "site_id" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,site_id,-1,-1;name "name" true true false 100 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,name,-1,-1;active_fla "active_fla" true true false 4 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,active_flag,-1,-1;address_st "address_st" true true false 200 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,address_street,-1,-1;address_ci "address_ci" true true false 60 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,address_city,-1,-1;address__1 "address__1" true true false 2 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,address_state,-1,-1;address_zi "address_zi" true true false 15 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,address_zip,-1,-1;city "city" true true false 60 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,city,-1,-1;county "county" true true false 40 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,county,-1,-1;cong_distr "cong_distr" true true false 2 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,cong_district,-1,-1;senate_dis "senate_dis" true true false 4 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,senate_district,-1,-1;house_dist "house_dist" true true false 4 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,house_district,-1,-1;huc8 "huc8" true true false 8 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,huc8,-1,-1;watershed_ "watershed_" true true false 60 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,watershed_name,-1,-1;site_url "site_url" true true false 200 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,site_url,-1,-1;activity "activity" true true false 100 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,activity,-1,-1;activity_l "activity_l" true true false 1000 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,activity_list,-1,-1;mpca_id "mpca_id" true true false 60 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,mpca_id,-1,-1;mpca_id_li "mpca_id_li" true true false 400 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,mpca_id_list,-1,-1;program_co "program_co" true true false 200 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,program_code_list,-1,-1;program_na "program_na" true true false 60 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,program_name,-1,-1;program__1 "program__1" true true false 400 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,program_name_list,-1,-1;industrial "industrial" true true false 4000 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,industrial_classification,-1,-1;ic_flag "ic_flag" true true false 4 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,ic_flag,-1,-1;latitude "latitude" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,latitude,-1,-1;longitude "longitude" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,longitude,-1,-1;coord_coll "coord_coll" true true false 2 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,coord_collect_method_code,-1,-1;coord_co_1 "coord_co_1" true true false 100 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_pca\env_my_neighborhood\fgdb\env_my_neighborhood.gdb\my_neighborhood_sites,coord_collect_method_name,-1,-1" #</Process>
+			</lineage>
+			<itemProps>
+				<itemLocation>
+					<linkage Sync="TRUE">file://\\g46palgdrftp001\Z\var\ftp\gdrs_temp\update\us_mn_state_pca\env_my_neighborhood\shp\my_neighborhood_sites.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+				<itemName Sync="TRUE">my_neighborhood_sites</itemName>
+				<imsContentType Sync="TRUE">002</imsContentType>
+				<itemSize Sync="TRUE">0.000</itemSize>
+			</itemProps>
+			<coordRef>
+				<type Sync="TRUE">Projected</type>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+				<projcsn Sync="TRUE">NAD_1983_UTM_Zone_15N</projcsn>
+				<peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.4'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_UTM_Zone_15N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-93.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26915]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26915&lt;/WKID&gt;&lt;LatestWKID&gt;26915&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+			</coordRef>
+		</DataProperties>
+		<SyncDate>20190717</SyncDate>
+		<SyncTime>00304500</SyncTime>
+		<ModDate>20190717</ModDate>
+		<ModTime>00304500</ModTime>
+	</Esri>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Professional x64 Edition Version 5.2 (Build 3790) Service Pack 2; Esri ArcGIS 10.4.1.5686</envirDesc>
+		<dataLang>
+			<languageCode value="en" Sync="TRUE"/>
+			<countryCode value="US" Sync="TRUE"/>
+		</dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">my_neighborhood_sites</resTitle>
+			<presForm>
+				<PresFormCd value="005" Sync="TRUE"/>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd value="001" Sync="TRUE"/>
+		</spatRpType>
+	</dataIdInfo>
+	<mdLang>
+		<languageCode value="en" Sync="TRUE"/>
+		<countryCode value="US" Sync="TRUE"/>
+	</mdLang>
+	<distInfo>
+		<distFormat>
+			<formatName Sync="TRUE">Shapefile</formatName>
+		</distFormat>
+		<distTranOps>
+			<transSize Sync="TRUE">0.000</transSize>
+		</distTranOps>
+	</distInfo>
+	<mdHrLv>
+		<ScopeCd value="005" Sync="TRUE"/>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode code="26915" Sync="TRUE"/>
+				<idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+				<idVersion Sync="TRUE">6.13(3.0.1)</idVersion>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<geometObjs Name="my_neighborhood_sites">
+				<geoObjTyp>
+					<GeoObjTypCd value="004" Sync="TRUE"/>
+				</geoObjTyp>
+				<geoObjCnt Sync="TRUE">0</geoObjCnt>
+			</geometObjs>
+			<topLvl>
+				<TopoLevCd value="001" Sync="TRUE"/>
+			</topLvl>
+		</VectSpatRep>
+	</spatRepInfo>
+	<spdoinfo>
+		<ptvctinf>
+			<esriterm Name="my_neighborhood_sites">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom code="1" Sync="TRUE"/>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">0</efeacnt>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<eainfo>
+		<detailed Name="my_neighborhood_sites">
+			<enttyp>
+				<enttypl Sync="TRUE">my_neighborhood_sites</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">site_id</attrlabl>
+				<attalias Sync="TRUE">site_id</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">name</attrlabl>
+				<attalias Sync="TRUE">name</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">active_fla</attrlabl>
+				<attalias Sync="TRUE">active_fla</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">address_st</attrlabl>
+				<attalias Sync="TRUE">address_st</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">200</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">address_ci</attrlabl>
+				<attalias Sync="TRUE">address_ci</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">60</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">address__1</attrlabl>
+				<attalias Sync="TRUE">address__1</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">address_zi</attrlabl>
+				<attalias Sync="TRUE">address_zi</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">city</attrlabl>
+				<attalias Sync="TRUE">city</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">60</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">county</attrlabl>
+				<attalias Sync="TRUE">county</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">cong_distr</attrlabl>
+				<attalias Sync="TRUE">cong_distr</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">senate_dis</attrlabl>
+				<attalias Sync="TRUE">senate_dis</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">house_dist</attrlabl>
+				<attalias Sync="TRUE">house_dist</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">huc8</attrlabl>
+				<attalias Sync="TRUE">huc8</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">watershed_</attrlabl>
+				<attalias Sync="TRUE">watershed_</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">60</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">site_url</attrlabl>
+				<attalias Sync="TRUE">site_url</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">200</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">activity</attrlabl>
+				<attalias Sync="TRUE">activity</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">activity_l</attrlabl>
+				<attalias Sync="TRUE">activity_l</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">mpca_id</attrlabl>
+				<attalias Sync="TRUE">mpca_id</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">60</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">mpca_id_li</attrlabl>
+				<attalias Sync="TRUE">mpca_id_li</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">program_co</attrlabl>
+				<attalias Sync="TRUE">program_co</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">200</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">program_na</attrlabl>
+				<attalias Sync="TRUE">program_na</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">60</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">program__1</attrlabl>
+				<attalias Sync="TRUE">program__1</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">industrial</attrlabl>
+				<attalias Sync="TRUE">industrial</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ic_flag</attrlabl>
+				<attalias Sync="TRUE">ic_flag</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">latitude</attrlabl>
+				<attalias Sync="TRUE">latitude</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">longitude</attrlabl>
+				<attalias Sync="TRUE">longitude</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">coord_coll</attrlabl>
+				<attalias Sync="TRUE">coord_coll</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">coord_co_1</attrlabl>
+				<attalias Sync="TRUE">coord_co_1</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20190717</mdDateSt>
+</metadata>
