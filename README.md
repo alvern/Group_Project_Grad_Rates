@@ -28,9 +28,20 @@ EPA Superfund Sites: https://cumulis.epa.gov/supercpad/cursites/srchsites.cfm
 Clean data into usable data frames
 Analyze and visualize data 
 
+
 (Areas of Focus)  
-Education - Ashley  
+Education - Ashley 
+    (Ashley_Notebook_Cleaned.ipynb, Data_Cleaning.ipynb)
+  
+
 Pollution - Andy  
+    (andy_final.ipynb, andy_notebook.ipynb, tri_geopandas.ipynb)      
+    
+
 Income - Brian  
+    (census_blocks.ipynb, Census_Clean.ipynb)
+
 Broadband - Kate  
+    (kate_broadband_notebook.ipynb, Kate_Median_Income.ipynb)
 Crime - Jack  
+    (Heatmaps_Jack.ipynb, Jack_Notebook.ipynb)
