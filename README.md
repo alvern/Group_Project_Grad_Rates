@@ -39,7 +39,7 @@ Pollution - Andy
     
 
 Income - Brian  
-    (census_blocks.ipynb, Census_Clean.ipynb)
+    (census_blocks.ipynb, Census_Clean.ipynb, Brian_Beck_Notebook.ipynb)
 
 Broadband - Kate  
     (kate_broadband_notebook.ipynb, Kate_Median_Income.ipynb)
