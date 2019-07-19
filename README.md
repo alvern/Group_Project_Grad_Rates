@@ -30,7 +30,7 @@ Analyze and visualize data
 
 
 (Areas of Focus)  
-Education - Ashley 
+Education - Ashley   
     (Ashley_Notebook_Cleaned.ipynb, Data_Cleaning.ipynb)
   
 
@@ -43,5 +43,6 @@ Income - Brian
 
 Broadband - Kate  
     (kate_broadband_notebook.ipynb, Kate_Median_Income.ipynb)
+    
 Crime - Jack  
     (Heatmaps_Jack.ipynb, Jack_Notebook.ipynb)
