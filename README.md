@@ -1,48 +1,36 @@
-# Group_Project_Grad_Rates
+# Project Title: Impact of Sociopolitical Factors on Graduation Rates in Minnesota
 
-### Project Title: What’s impacting graduation rates in Minnesota?
+### Team Members: Brian Beck, Ashley Karlsson, Jack Langree, Andrew Lindberg, and  Kate Mikkelson
 
-### Team Members: Ashley, Andrew, Jack, Brian, Kate
+### Project Presentation: https://docs.google.com/presentation/d/1K8wSX6d2ixWqJr8yg5cJLSDQu8Z_AjgRVvXt6mZPGN0/edit?usp=sharing
+
+### Project Write-Up: https://docs.google.com/document/d/1oFVhcziiUJA9gQ7wVeTw5EFsrctpToboV_YmwHc70RM/edit?usp=sharing
 
 ### Git: https://github.com/alvern/Group_Project_Grad_Rates
 
 ### Project Description/Outline:
-
-Educational success is impacted by a number of things outside of school and we have brainstormed a few factors that we believe may correlate to graduation rates. 
+Educational success, as measured by graduation rate, can be impacted by a number of things outside of school. We have brainstormed a few sociopolitical factors that we believe may be associated with graduation rates and will be exploring each of these factors in relation to graduation rates. 
 
 ### Research Questions to Answer: 
-Are Minnesota graduation rates being impacted by things like the median income of the area? How about pollution and proximity to superfund sites? Does access to broadband internet affect education? How do schools perform relative to local incarceration rates? Do urban areas perform better academically than rural areas?
+Education: Are graduation rates associated with graduation cohort sizes or consistent attendance rates within schools? Pollution: Are graduation rates associated with proximity to superfund sides? Telecommunications: Is access to high-speed broadband internet associated with graduation rates? Economics: Are graduation rates associated with the median income of the area? Crime: Are graduation rates associated with local crime rates? We will compare and map this data to look for associations.
 
-We will compare and map this data to look for correlations.
-
-Median income, rural vs. urban areas, proximity to superfund sites, accessibility of broadband, regional incarceration rates. Look for interesting correlations and be willing to adjust questions based on results and challenges. 
-
-### Datasets to be Used: 
+### Sample of Datasets Used: 
 Minnesota Graduation Rates by School: http://w20.education.state.mn.us/MDEAnalytics/DataTopic.jsp?TOPICID=2
-
 Minnesota School Addresses: http://w20.education.state.mn.us/MdeOrgView/search/tagged/MDEORG_DISTRICT_SCHOOL
-
 Broadband Access: https://broadbandmap.fcc.gov/#/
-
 Department of Justice Information: https://www.justice.gov/developer
-
 TRI Facilities: https://enviro.epa.gov/enviro/efservice/tri_facility/state_abbr/MN/rows/
-
 EPA Superfund Sites: https://cumulis.epa.gov/supercpad/cursites/srchsites.cfm
 
 ### Rough Breakdown of Tasks: 
 
-Clean graduation data into usable data frame
+(ALL) 
+Clean data into usable data frames
+Analyze and visualize data 
 
-Add school addresses to data frame
-
-Create data frames for other data sets (broadband access, DOJ info, TRI facilities)
-
-Visualize Data with Matplotlib and Gmaps heatmap
- 
-
-
-## Notes from Scott:
--Be aware of and note things for which we *can’t* account. I.e. students bussed in from other areas
--Check standard deviation of income levels in a city.
-
+(Areas of Focus)
+Education - Ashley
+Pollution - Andy
+Income - Brian
+Broadband - Kate
+Crime - Jack
