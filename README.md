@@ -28,9 +28,9 @@ EPA Superfund Sites: https://cumulis.epa.gov/supercpad/cursites/srchsites.cfm
 Clean data into usable data frames
 Analyze and visualize data 
 
-(Areas of Focus)
-Education - Ashley
-Pollution - Andy
-Income - Brian
-Broadband - Kate
-Crime - Jack
+(Areas of Focus)  
+Education - Ashley  
+Pollution - Andy  
+Income - Brian  
+Broadband - Kate  
+Crime - Jack  
