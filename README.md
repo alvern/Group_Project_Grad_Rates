@@ -14,14 +14,15 @@ Educational success, as measured by graduation rate, can be impacted by a number
 ### Research Questions to Answer: 
 Education: Are graduation rates associated with graduation cohort sizes or consistent attendance rates within schools? Pollution: Are graduation rates associated with proximity to superfund sides? Telecommunications: Is access to high-speed broadband internet associated with graduation rates? Economics: Are graduation rates associated with the median income of the area? Crime: Are graduation rates associated with local crime rates? We will compare and map this data to look for associations.
 
-### Sample of Datasets Used: 
-Minnesota Graduation Rates by School: http://w20.education.state.mn.us/MDEAnalytics/DataTopic.jsp?TOPICID=2
-Minnesota School Addresses: http://w20.education.state.mn.us/MdeOrgView/search/tagged/MDEORG_DISTRICT_SCHOOL
-Broadband Access: https://broadbandmap.fcc.gov/#/
-Department of Justice Information: https://www.justice.gov/developer
-TRI Facilities: https://enviro.epa.gov/enviro/efservice/tri_facility/state_abbr/MN/rows/
-EPA Superfund Sites: https://cumulis.epa.gov/supercpad/cursites/srchsites.cfm
-
+### Sample of Datasets Used:   
+Minnesota Graduation Rates by School: http://w20.education.state.mn.us/MDEAnalytics/DataTopic.jsp?TOPICID=2  
+Minnesota School Addresses: http://w20.education.state.mn.us/MdeOrgView/search/tagged/MDEORG_DISTRICT_SCHOOL  
+Broadband Access: https://broadbandmap.fcc.gov/#/  
+Department of Justice Information: https://www.justice.gov/developer  
+TRI Facilities: https://enviro.epa.gov/enviro/efservice/tri_facility/state_abbr/MN/rows/  
+EPA Superfund Sites: https://cumulis.epa.gov/supercpad/cursites/srchsites.cfm  
+MPCA toxic release https://gisdata.mn.gov/dataset/env-my-neighborhood  
+  
 ### Rough Breakdown of Tasks: 
 
 (ALL) 
